@@ -549,6 +549,12 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .alert-danger {
   background-color: #ff9966;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 100px;
+}
+.mbr-gallery-filter li a {
+  border-radius: 100px !important;
+}
 .mbr-gallery-filter li.active .btn {
   background-color: #6592e6;
   border-color: #6592e6;
@@ -556,6 +562,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -612,6 +621,19 @@ blockquote {
   border-color: #6592e6;
 }
 /* Forms */
+.mbr-form .input-group-btn a.btn {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn a.btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+  padding: 1rem 3rem;
+}
+.mbr-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #6592e6;
@@ -1805,34 +1827,38 @@ a {
     left: -1rem;
   }
 }
-.cid-sCYVbpSfCg {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.cid-qTl1EBSVGt {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-sCYVbpSfCg .mbr-overlay {
-  background-color: #ffffff;
-  opacity: 0.4;
+.cid-qTl1EBSVGt .form-control {
+  color: #000000 !important;
+  border: none;
+  border-radius: 0 !important;
+  background-color: transparent;
+  padding: .5rem 0rem;
+  border-bottom: 1px solid #000000;
 }
-.cid-sCYVbpSfCg form.mbr-form {
-  border-radius: 10px;
-  background-color: #fafafa;
+.cid-qTl1EBSVGt .form-control:focus {
+  outline: none;
+  box-shadow: none;
 }
-@media (min-width: 992px) {
-  .cid-sCYVbpSfCg form.mbr-form {
-    padding: 3rem 2rem;
-    width: 60%;
-  }
+.cid-qTl1EBSVGt input::-webkit-input-placeholder {
+  color: #000000;
 }
-@media (max-width: 991px) {
-  .cid-sCYVbpSfCg form.mbr-form {
-    padding: 1rem;
-  }
+.cid-qTl1EBSVGt input::-moz-placeholder {
+  color: #000000;
 }
-.cid-sCYVbpSfCg form.mbr-form .mbr-section-btn {
-  text-align: center;
-  width: 100%;
+.cid-qTl1EBSVGt textarea::-webkit-input-placeholder {
+  color: #000000;
 }
-.cid-sCYVbpSfCg form.mbr-form .mbr-section-btn .btn {
-  width: 100%;
+.cid-qTl1EBSVGt textarea::-moz-placeholder {
+  color: #000000;
+}
+.cid-qTl1EBSVGt textarea.form-control {
+  min-height: 83px;
+}
+.cid-qTl1EBSVGt .mbr-section-subtitle {
+  color: #767676;
 }
