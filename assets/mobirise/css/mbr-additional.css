@@ -539,6 +539,8 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 .alert-success {
   background-color: #da1717;
+  color:#da1717;
+  border-color: #da1717;
 }
 .alert-info {
   background-color: #47b5ed;
