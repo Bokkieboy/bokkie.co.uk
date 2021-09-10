@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-msedge",
+            "name": "Launch Edge",
             "request": "launch",
-            "name": "Open UID.html",
-            "file": "/Users/rhyspounder/bokkie.co.uk/UID.html"
+            "type": "pwa-msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
